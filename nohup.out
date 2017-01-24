@@ -1,0 +1,76 @@
+
+(atom:3676): IBUS-WARNING **: The owner of /home/wangs/.config/ibus/bus is not root!
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[0123/101729:ERROR:nss_util.cc(94)] Failed to create /home/wangs/.pki/nssdb directory.
+[0123/101729:FATAL:chrome_main_delegate.cc(413)] Check failed: process_type.empty(). Unable to get the user data directory for process type: zygote
+#0 0x7fbeef2ab7be base::debug::StackTrace::StackTrace()
+#1 0x7fbeef2c7247 logging::LogMessage::~LogMessage()
+#2 0x559ab365b5f3 <unknown>
+#3 0x7fbeea5ac76a <unknown>
+#4 0x7fbeea5aaffd content::ContentMain()
+#5 0x559ab365a93c <unknown>
+#6 0x7fbeda76f830 __libc_start_main
+#7 0x559ab365a809 <unknown>
+
+[8701:8701:0123/101729:FATAL:zygote_host_impl_linux.cc(182)] Check failed: ReceiveFixedMessage(fds[0], kZygoteBootMessage, sizeof(kZygoteBootMessage), &boot_pid). 
+#0 0x7f3285a8b7be base::debug::StackTrace::StackTrace()
+#1 0x7f3285aa7247 logging::LogMessage::~LogMessage()
+#2 0x7f3280a99b93 content::ZygoteHostImpl::LaunchZygote()
+#3 0x7f3280a98c02 content::ZygoteCommunication::Init()
+#4 0x7f3280a9917e content::CreateZygote()
+#5 0x7f3280753d87 content::BrowserMainLoop::EarlyInitialization()
+#6 0x7f3280756edf <unknown>
+#7 0x7f3280750122 content::BrowserMain()
+#8 0x7f3280d8bd14 <unknown>
+#9 0x7f3280d8b021 content::ContentMain()
+#10 0x55c81e81493c <unknown>
+#11 0x7f3270f4f830 __libc_start_main
+#12 0x55c81e814809 <unknown>
+
+Aborted
+[0123/101731:ERROR:nss_util.cc(94)] Failed to create /home/wangs/.pki/nssdb directory.
+Illegal instruction
+
+(firefox:8728): IBUS-WARNING **: The owner of /home/wangs/.config/ibus/bus is not root!
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+1485138218071	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+1485138218080	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+1485138218089	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+1485138218230	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+1485138218239	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************

@@ -1,8 +1,19 @@
 "*":
+  "atom-beautify":
+    c:
+      beautify_on_save: true
+    cpp:
+      beautify_on_save: true
+    general:
+      _analyticsUserId: "d1fdeea7-f969-4943-ae9d-0a12dec2d384"
+    markdown:
+      beautify_on_save: true
   core:
     autoHideMenuBar: true
     disabledPackages: [
       "atom-ctags"
+      "sync-settings"
+      "esformatter"
     ]
     telemetryConsent: "no"
   "exception-reporting":
